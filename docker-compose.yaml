@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  kafka:
+    image: apache/kafka
+    ports:
+      - '9092:9092'
